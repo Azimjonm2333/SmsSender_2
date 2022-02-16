@@ -10,7 +10,7 @@ wb.open("https://t.me/b1n_bash")
 
 import requests
 phone = input('Введите номер телефона: ')
-message = input ('Введите сообщение: ')
+message = input ('Введите сообщение c (+): ')
 resp = requests.post('https://textbelt.com/text', {
   'phone': phone,
   'message': message,
