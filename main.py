@@ -9,8 +9,8 @@ print("Сделана: @Azimjonm2333")
 wb.open("https://t.me/b1n_bash")
 
 import requests
-phone = input('Введите номер телефона: ')
-message = input ('Введите сообщение c (+): ')
+phone = input('Введите номер телефона c (+): ')
+message = input ('Введите сообщение: ')
 resp = requests.post('https://textbelt.com/text', {
   'phone': phone,
   'message': message,
