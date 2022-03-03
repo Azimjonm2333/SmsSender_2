@@ -2,11 +2,11 @@ import sys
 
 import webbrowser as wb
 
-print("СКРИПТ КАНАЛА: @b1n_bash")
+print("СКРИПТ КАНАЛА: @jenrysoft")
 print("Версия: 0.2")
 print("Сделана: @Azimjonm2333")
 
-wb.open("https://t.me/b1n_bash")
+wb.open("https://t.me/jenrysoft")
 
 import requests
 phone = input('Введите номер телефона c (+): ')
